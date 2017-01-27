@@ -1,0 +1,9 @@
+file.name <- Sys.time()
+file.name <- paste("Raw HTML ", file.name)
+file.name <- paste(file.name, ".R")
+save(r.page, file=file.name)
+
+clinton.file.name <- Sys.time()
+clinton.file.name <- paste(“Clinton ", file.name)
+clinton.file.name <- paste(file.name, ".R")
+save(clintonLong.df, file=clinton.file.name)
