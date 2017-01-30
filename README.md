@@ -14,7 +14,7 @@ This way of estimating the probabilities of each candidate winning has several s
 
 My code scraped the entirety of https://electionbettingodds.com/ at various times, extracted the probabilities associated with each candidate, arranged this table into a dataframe, and updated an ongoing dataframe filled with data from each candidate over time. It then used the conditional probability formula to calculate the probability of each candidate winning the presidency conditional on them securing their party's nomination:
 
-<p align="center">P(Elected President|Become Nominee) = P(Elected President)/P(Become Nominee)</p>
+**<p align="center">P(Elected President|Become Nominee) = P(Elected President)/P(Become Nominee)</p>**
 
 This probability may be one useful way to quantify a candidate's "viability"--their strength as a potential general election candidate.
 
